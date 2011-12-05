@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Teachers";
+}
+
+@model List<CourseManager.UI.Models.TeacherModel>
+
+<h2>@CourseManager.UI.Resources.Teacher_List_Header</h2>
+
+@foreach (var teacher in Model) { 
+  @teacher.FirstName 
+  @teacher.LastName
+}
+
