@@ -15,6 +15,7 @@ obj
 *.exe
 log.txt
 log.txt.*
+!nuget/*
 *.Publish.xml
 *Test-Results.xml
 !Shared/NUnit/bin
