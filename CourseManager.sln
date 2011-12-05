@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseManager.UI", "CourseManager.UI\CourseManager.UI.csproj", "{783E2BB6-4965-4C9D-A75A-8E22BEEAF3ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseManager.Core", "CourseManager.Core\CourseManager.Core.csproj", "{901A1863-E531-40A6-BA2F-755BA5CAFDED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{783E2BB6-4965-4C9D-A75A-8E22BEEAF3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783E2BB6-4965-4C9D-A75A-8E22BEEAF3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783E2BB6-4965-4C9D-A75A-8E22BEEAF3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783E2BB6-4965-4C9D-A75A-8E22BEEAF3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901A1863-E531-40A6-BA2F-755BA5CAFDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901A1863-E531-40A6-BA2F-755BA5CAFDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901A1863-E531-40A6-BA2F-755BA5CAFDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901A1863-E531-40A6-BA2F-755BA5CAFDED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
