@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Course.cs" />
     <Compile Include="DataAccess\CourseContext.cs" />
+    <Compile Include="Group.cs" />
     <Compile Include="Language.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Semester.cs" />

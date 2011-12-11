@@ -30,6 +30,35 @@ namespace CourseManager.UI.Controllers
       return View();
     }
 
+
+    public ActionResult Edit(int id)
+    {
+      var memberMapper = new MemberMapper();
+      memberMapper.CreateMap<Semester, SemesterModel>();
+
+      var ctx = new CourseContext();
+
+      var result = memberMapper.Map<Semester, SemesterModel>(ctx.Semesters.FirstOrDefault(c => c.ID == id));
+
+      return View(result);
+
+    }
+
+    [HttpPost]
+    public ActionResult Edit(SemesterModel model)
+    {
+      CourseContext ctx = new CourseContext();
+      var semester = ctx.Semesters.FirstOrDefault(c => c.ID == model.ID);
+
+      semester.Name = model.Name;
+      semester.StartDate = model.StartDate;
+      semester.EndDate = model.EndDate;
+
+      ctx.SaveChanges();
+
+      return RedirectToAction("Index");
+    }
+
     [HttpPost]
     public ActionResult Create(SemesterModel model)
     {
@@ -66,7 +95,7 @@ namespace CourseManager.UI.Controllers
       var ctx = new CourseContext();
 
       ctx.Semesters.Remove(ctx.Semesters.FirstOrDefault(c => c.ID == id));
-      
+      ctx.SaveChanges();
       return RedirectToAction("Index");
     }
   }

@@ -135,6 +135,27 @@
   <data name="Globar_Delete_Action_Condition" xml:space="preserve">
     <value>Искате ли да изтриете това?</value>
   </data>
+  <data name="Group_Add_New_Text" xml:space="preserve">
+    <value>Нова група</value>
+  </data>
+  <data name="Group_Entity_Text" xml:space="preserve">
+    <value>Група</value>
+  </data>
+  <data name="Group_Identifier_Label" xml:space="preserve">
+    <value>Номер на група</value>
+  </data>
+  <data name="Group_Link_Text" xml:space="preserve">
+    <value>Групи</value>
+  </data>
+  <data name="Group_List_Header" xml:space="preserve">
+    <value>Списък на всички групи</value>
+  </data>
+  <data name="Group_Name_Error" xml:space="preserve">
+    <value>Въведи име на група!</value>
+  </data>
+  <data name="Group_Name_Label" xml:space="preserve">
+    <value>Група</value>
+  </data>
   <data name="Home_Link_Text" xml:space="preserve">
     <value>Начална страница</value>
   </data>
@@ -146,6 +167,9 @@
   </data>
   <data name="Semester_LinkName" xml:space="preserve">
     <value>Семестър</value>
+  </data>
+  <data name="Semester_List_Header" xml:space="preserve">
+    <value>Списък на всички семестри</value>
   </data>
   <data name="Semester_Name_Error" xml:space="preserve">
     <value>Въвъдете име за семестъра</value>

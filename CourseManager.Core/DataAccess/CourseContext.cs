@@ -32,5 +32,7 @@ namespace CourseManager.Core.DataAccess
     public DbSet<Semester> Semesters { get; set; }
 
     public DbSet<Teacher> Teachers { get; set; }
+
+    public DbSet<Group> Groups { get; set; }
   }
 }

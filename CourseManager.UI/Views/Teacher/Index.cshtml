@@ -3,7 +3,8 @@
 }
 @model List<CourseManager.UI.Models.TeacherModel>
 <h2>@CourseManager.UI.Resources.Teacher_List_Header</h2>
-@Html.ActionLink(CourseManager.UI.Resources.Teacher_Add_Action_Text, "Add")
+
+<p>@Html.ActionLink(CourseManager.UI.Resources.Teacher_Add_Action_Text, "Add")</p>
 <table id="teachers-table">
   <thead>
     <tr>

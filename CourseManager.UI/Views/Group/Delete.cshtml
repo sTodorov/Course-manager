@@ -1,0 +1,22 @@
+﻿@model CourseManager.UI.Models.GroupModel
+@{
+  ViewBag.Title = "Delete";
+}
+<h3>
+  @CourseManager.UI.Resources.Globar_Delete_Action_Condition
+</h3>
+<fieldset>
+  <legend>GroupModel</legend>
+  <div class="display-label">@Html.LabelFor(c => c.Name)</div>
+  <div class="display-field">@Model.Name</div>
+  <div class="display-label">@Html.LabelFor(c => c.Identifier)</div>
+  <div class="display-field">@Model.Identifier</div>
+</fieldset>
+@using (Html.BeginForm())
+{
+  <p>
+    <input type="submit" value="@CourseManager.UI.Resources.Global_Delete_Action_Text" />
+    |
+    @Html.ActionLink(CourseManager.UI.Resources.Global_Back_to_List_Action, "Index")
+  </p>
+}

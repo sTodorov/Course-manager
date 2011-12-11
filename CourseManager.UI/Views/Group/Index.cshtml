@@ -1,23 +1,21 @@
-﻿@model IEnumerable<CourseManager.UI.Models.SemesterModel>
+﻿@model IEnumerable<CourseManager.UI.Models.GroupModel>
 @{
   ViewBag.Title = "Index";
 }
-<h2>@CourseManager.UI.Resources.Semester_List_Header</h2>
+<h2>@CourseManager.UI.Resources.Group_List_Header</h2>
+
 <p>
-  @Html.ActionLink(CourseManager.UI.Resources.Semester_Add_Action_Text, "Create")
+  @Html.ActionLink(CourseManager.UI.Resources.Group_Add_New_Text, "Create")
 </p>
 <table>
   <tr>
     <th>
     </th>
     <th>
-      @CourseManager.UI.Resources.Semester_Name_Label
+      @CourseManager.UI.Resources.Group_Name_Label
     </th>
     <th>
-      @CourseManager.UI.Resources.Semester_StartDate_Label
-    </th>
-    <th>
-      @CourseManager.UI.Resources.Semester_EndDate_Label
+      @CourseManager.UI.Resources.Group_Identifier_Label
     </th>
   </tr>
   @foreach (var item in Model)
@@ -32,10 +30,7 @@
         @item.Name
       </td>
       <td>
-        @item.StartDate.ToString("dd/MM/yyyy")
-      </td>
-      <td>
-        @item.StartDate.ToString("dd/MM/yyyy")
+        @item.Identifier
       </td>
     </tr>
   }

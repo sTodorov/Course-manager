@@ -135,6 +135,27 @@
   <data name="Globar_Delete_Action_Condition" xml:space="preserve">
     <value>Are you sure you want to delete this?</value>
   </data>
+  <data name="Group_Add_New_Text" xml:space="preserve">
+    <value>Create a group</value>
+  </data>
+  <data name="Group_Entity_Text" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="Group_Identifier_Label" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="Group_Link_Text" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Group_List_Header" xml:space="preserve">
+    <value>List of all groups</value>
+  </data>
+  <data name="Group_Name_Error" xml:space="preserve">
+    <value>You must enter a group name</value>
+  </data>
+  <data name="Group_Name_Label" xml:space="preserve">
+    <value>Group</value>
+  </data>
   <data name="Home_Link_Text" xml:space="preserve">
     <value>Home page</value>
   </data>
@@ -146,6 +167,9 @@
   </data>
   <data name="Semester_LinkName" xml:space="preserve">
     <value>Semester</value>
+  </data>
+  <data name="Semester_List_Header" xml:space="preserve">
+    <value>List of all semesters</value>
   </data>
   <data name="Semester_Name_Error" xml:space="preserve">
     <value>Suppy a name for a semester!</value>

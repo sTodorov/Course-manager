@@ -115,6 +115,69 @@ namespace CourseManager.UI {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Create a group.
+        /// </summary>
+        public static string Group_Add_New_Text {
+            get {
+                return ResourceManager.GetString("Group_Add_New_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Group.
+        /// </summary>
+        public static string Group_Entity_Text {
+            get {
+                return ResourceManager.GetString("Group_Entity_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Identifier.
+        /// </summary>
+        public static string Group_Identifier_Label {
+            get {
+                return ResourceManager.GetString("Group_Identifier_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Groups.
+        /// </summary>
+        public static string Group_Link_Text {
+            get {
+                return ResourceManager.GetString("Group_Link_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to List of all groups.
+        /// </summary>
+        public static string Group_List_Header {
+            get {
+                return ResourceManager.GetString("Group_List_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must enter a group name.
+        /// </summary>
+        public static string Group_Name_Error {
+            get {
+                return ResourceManager.GetString("Group_Name_Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Group.
+        /// </summary>
+        public static string Group_Name_Label {
+            get {
+                return ResourceManager.GetString("Group_Name_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home page.
         /// </summary>
         public static string Home_Link_Text {
@@ -147,6 +210,15 @@ namespace CourseManager.UI {
         public static string Semester_LinkName {
             get {
                 return ResourceManager.GetString("Semester_LinkName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to List of all semesters.
+        /// </summary>
+        public static string Semester_List_Header {
+            get {
+                return ResourceManager.GetString("Semester_List_Header", resourceCulture);
             }
         }
         
