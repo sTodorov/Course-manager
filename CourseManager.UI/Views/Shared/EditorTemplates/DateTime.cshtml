@@ -1,0 +1,15 @@
+﻿@model System.DateTime?
+         
+
+@Html.TextBox("", Model.HasValue && (Model.HasValue && Model.Value != default(DateTime)) ? Model.Value.ToString("dd/MM/yyyy") : "", new { @class = "date-time" })
+
+<script type="text/javascript" language="javascript">
+  $(function () {
+    $('.date-time').datepicker({
+      dateFormat: 'dd/mm/yy',
+      changeMonth: true,
+      changeYear: true,
+      yearRange: '2000 : 2020'
+    });
+  });
+</script>

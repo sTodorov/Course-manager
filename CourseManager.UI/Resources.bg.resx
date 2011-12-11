@@ -117,13 +117,97 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Global_Back_to_List_Action" xml:space="preserve">
+    <value>Обратно към листът</value>
+  </data>
+  <data name="Global_Delete_Action_Text" xml:space="preserve">
+    <value>Изтрий</value>
+  </data>
+  <data name="Global_Save_Action" xml:space="preserve">
+    <value>Запази</value>
+  </data>
+  <data name="Global_Update_Action_text" xml:space="preserve">
+    <value>Промени</value>
+  </data>
+  <data name="Global_View_Action_Text" xml:space="preserve">
+    <value>Детайли</value>
+  </data>
+  <data name="Globar_Delete_Action_Condition" xml:space="preserve">
+    <value>Искате ли да изтриете това?</value>
+  </data>
+  <data name="Home_Link_Text" xml:space="preserve">
+    <value>Начална страница</value>
+  </data>
+  <data name="Semester_Add_Action_Text" xml:space="preserve">
+    <value>Нов семестър</value>
+  </data>
+  <data name="Semester_EndDate_Label" xml:space="preserve">
+    <value>Завършва</value>
+  </data>
+  <data name="Semester_LinkName" xml:space="preserve">
+    <value>Семестър</value>
+  </data>
+  <data name="Semester_Name_Error" xml:space="preserve">
+    <value>Въвъдете име за семестъра</value>
+  </data>
+  <data name="Semester_Name_Label" xml:space="preserve">
+    <value>Семестър</value>
+  </data>
+  <data name="Semester_StartDate_Label" xml:space="preserve">
+    <value>Започва</value>
+  </data>
+  <data name="Teacher_Add_Action_Text" xml:space="preserve">
+    <value>Нов учител</value>
+  </data>
+  <data name="Teacher_Department_Label" xml:space="preserve">
+    <value>Катедра</value>
+  </data>
+  <data name="Teacher_EmailNotValid_Error" xml:space="preserve">
+    <value>Имейлът е невалиден</value>
+  </data>
+  <data name="Teacher_Email_Error" xml:space="preserve">
+    <value>Въведете имейл на учителя!</value>
+  </data>
+  <data name="Teacher_Email_Label" xml:space="preserve">
+    <value>Имейл</value>
+  </data>
+  <data name="Teacher_Entity_Collection_Label" xml:space="preserve">
+    <value>Учители</value>
+  </data>
+  <data name="Teacher_Fieldset_Label" xml:space="preserve">
+    <value>Учител</value>
+  </data>
   <data name="Teacher_FirstName_Error" xml:space="preserve">
     <value>Въведете собствено име на учителя!</value>
   </data>
   <data name="Teacher_FirstName_Label" xml:space="preserve">
     <value>Собствено име</value>
   </data>
+  <data name="Teacher_Identifier_Label" xml:space="preserve">
+    <value>Идентификация</value>
+  </data>
+  <data name="Teacher_LastName_Error" xml:space="preserve">
+    <value>Въведете фамилното име на учителя!</value>
+  </data>
+  <data name="Teacher_LastName_Label" xml:space="preserve">
+    <value>Фамилно име</value>
+  </data>
   <data name="Teacher_List_Header" xml:space="preserve">
     <value>Списък на всички учители</value>
+  </data>
+  <data name="Teacher_Office_Label" xml:space="preserve">
+    <value>Номер на стая</value>
+  </data>
+  <data name="Teacher_PhoneNumber_Label" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="Teacher_Update_Action_Text" xml:space="preserve">
+    <value>Промяна на учител</value>
+  </data>
+  <data name="Teacher_View_Action_Text" xml:space="preserve">
+    <value>Детайли</value>
+  </data>
+  <data name="Теаcher_Delete_Action_Text" xml:space="preserve">
+    <value>Изтрий учител</value>
   </data>
 </root>

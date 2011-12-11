@@ -61,6 +61,186 @@ namespace CourseManager.UI {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Back to list.
+        /// </summary>
+        public static string Global_Back_to_List_Action {
+            get {
+                return ResourceManager.GetString("Global_Back_to_List_Action", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete.
+        /// </summary>
+        public static string Global_Delete_Action_Text {
+            get {
+                return ResourceManager.GetString("Global_Delete_Action_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string Global_Save_Action {
+            get {
+                return ResourceManager.GetString("Global_Save_Action", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit.
+        /// </summary>
+        public static string Global_Update_Action_text {
+            get {
+                return ResourceManager.GetString("Global_Update_Action_text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View.
+        /// </summary>
+        public static string Global_View_Action_Text {
+            get {
+                return ResourceManager.GetString("Global_View_Action_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you sure you want to delete this?.
+        /// </summary>
+        public static string Globar_Delete_Action_Condition {
+            get {
+                return ResourceManager.GetString("Globar_Delete_Action_Condition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Home page.
+        /// </summary>
+        public static string Home_Link_Text {
+            get {
+                return ResourceManager.GetString("Home_Link_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add semester.
+        /// </summary>
+        public static string Semester_Add_Action_Text {
+            get {
+                return ResourceManager.GetString("Semester_Add_Action_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to End date.
+        /// </summary>
+        public static string Semester_EndDate_Label {
+            get {
+                return ResourceManager.GetString("Semester_EndDate_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Semester.
+        /// </summary>
+        public static string Semester_LinkName {
+            get {
+                return ResourceManager.GetString("Semester_LinkName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Suppy a name for a semester!.
+        /// </summary>
+        public static string Semester_Name_Error {
+            get {
+                return ResourceManager.GetString("Semester_Name_Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Semester.
+        /// </summary>
+        public static string Semester_Name_Label {
+            get {
+                return ResourceManager.GetString("Semester_Name_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start date.
+        /// </summary>
+        public static string Semester_StartDate_Label {
+            get {
+                return ResourceManager.GetString("Semester_StartDate_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New teacher.
+        /// </summary>
+        public static string Teacher_Add_Action_Text {
+            get {
+                return ResourceManager.GetString("Teacher_Add_Action_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Department.
+        /// </summary>
+        public static string Teacher_Department_Label {
+            get {
+                return ResourceManager.GetString("Teacher_Department_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter email of teacher!.
+        /// </summary>
+        public static string Teacher_Email_Error {
+            get {
+                return ResourceManager.GetString("Teacher_Email_Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email.
+        /// </summary>
+        public static string Teacher_Email_Label {
+            get {
+                return ResourceManager.GetString("Teacher_Email_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email is not valid.
+        /// </summary>
+        public static string Teacher_EmailNotValid_Error {
+            get {
+                return ResourceManager.GetString("Teacher_EmailNotValid_Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Teachers.
+        /// </summary>
+        public static string Teacher_Entity_Collection_Label {
+            get {
+                return ResourceManager.GetString("Teacher_Entity_Collection_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Teacher.
+        /// </summary>
+        public static string Teacher_Fieldset_Label {
+            get {
+                return ResourceManager.GetString("Teacher_Fieldset_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Enter first name of teacher!.
         /// </summary>
         public static string Teacher_FirstName_Error {
@@ -72,9 +252,36 @@ namespace CourseManager.UI {
         /// <summary>
         ///   Looks up a localized string similar to First name.
         /// </summary>
-        public static string Teacher_FirstNameLabel {
+        public static string Teacher_FirstName_Label {
             get {
-                return ResourceManager.GetString("Teacher_FirstNameLabel", resourceCulture);
+                return ResourceManager.GetString("Teacher_FirstName_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Identifier.
+        /// </summary>
+        public static string Teacher_Identifier_Label {
+            get {
+                return ResourceManager.GetString("Teacher_Identifier_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter family name of teacher!.
+        /// </summary>
+        public static string Teacher_LastName_Error {
+            get {
+                return ResourceManager.GetString("Teacher_LastName_Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Family name.
+        /// </summary>
+        public static string Teacher_LastName_Label {
+            get {
+                return ResourceManager.GetString("Teacher_LastName_Label", resourceCulture);
             }
         }
         
@@ -84,6 +291,51 @@ namespace CourseManager.UI {
         public static string Teacher_List_Header {
             get {
                 return ResourceManager.GetString("Teacher_List_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Office number.
+        /// </summary>
+        public static string Teacher_Office_Label {
+            get {
+                return ResourceManager.GetString("Teacher_Office_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone.
+        /// </summary>
+        public static string Teacher_PhoneNumber_Label {
+            get {
+                return ResourceManager.GetString("Teacher_PhoneNumber_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit teacher.
+        /// </summary>
+        public static string Teacher_Update_Action_Text {
+            get {
+                return ResourceManager.GetString("Teacher_Update_Action_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Teacher details.
+        /// </summary>
+        public static string Teacher_View_Action_Text {
+            get {
+                return ResourceManager.GetString("Teacher_View_Action_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete teacher.
+        /// </summary>
+        public static string Теаcher_Delete_Action_Text {
+            get {
+                return ResourceManager.GetString("Теаcher_Delete_Action_Text", resourceCulture);
             }
         }
     }

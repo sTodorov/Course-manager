@@ -11,7 +11,7 @@ using CourseManager.UI.Models;
 
 namespace CourseManager.UI.Controllers
 {
-  public class AccountController : Controller
+  public class AccountController : BaseController
   {
 
     public IFormsAuthenticationService FormsService { get; set; }

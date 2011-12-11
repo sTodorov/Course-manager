@@ -117,13 +117,97 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Teacher_FirstNameLabel" xml:space="preserve">
-    <value>First name</value>
+  <data name="Global_Back_to_List_Action" xml:space="preserve">
+    <value>Back to list</value>
+  </data>
+  <data name="Global_Delete_Action_Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Global_Save_Action" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Global_Update_Action_text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Global_View_Action_Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Globar_Delete_Action_Condition" xml:space="preserve">
+    <value>Are you sure you want to delete this?</value>
+  </data>
+  <data name="Home_Link_Text" xml:space="preserve">
+    <value>Home page</value>
+  </data>
+  <data name="Semester_Add_Action_Text" xml:space="preserve">
+    <value>Add semester</value>
+  </data>
+  <data name="Semester_EndDate_Label" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="Semester_LinkName" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="Semester_Name_Error" xml:space="preserve">
+    <value>Suppy a name for a semester!</value>
+  </data>
+  <data name="Semester_Name_Label" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="Semester_StartDate_Label" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="Teacher_Add_Action_Text" xml:space="preserve">
+    <value>New teacher</value>
+  </data>
+  <data name="Teacher_Department_Label" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Teacher_EmailNotValid_Error" xml:space="preserve">
+    <value>Email is not valid</value>
+  </data>
+  <data name="Teacher_Email_Error" xml:space="preserve">
+    <value>Enter email of teacher!</value>
+  </data>
+  <data name="Teacher_Email_Label" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Teacher_Entity_Collection_Label" xml:space="preserve">
+    <value>Teachers</value>
+  </data>
+  <data name="Teacher_Fieldset_Label" xml:space="preserve">
+    <value>Teacher</value>
   </data>
   <data name="Teacher_FirstName_Error" xml:space="preserve">
     <value>Enter first name of teacher!</value>
   </data>
+  <data name="Teacher_FirstName_Label" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="Teacher_Identifier_Label" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="Teacher_LastName_Error" xml:space="preserve">
+    <value>Enter family name of teacher!</value>
+  </data>
+  <data name="Teacher_LastName_Label" xml:space="preserve">
+    <value>Family name</value>
+  </data>
   <data name="Teacher_List_Header" xml:space="preserve">
     <value>List of all teachers</value>
+  </data>
+  <data name="Teacher_Office_Label" xml:space="preserve">
+    <value>Office number</value>
+  </data>
+  <data name="Teacher_PhoneNumber_Label" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Teacher_Update_Action_Text" xml:space="preserve">
+    <value>Edit teacher</value>
+  </data>
+  <data name="Teacher_View_Action_Text" xml:space="preserve">
+    <value>Teacher details</value>
+  </data>
+  <data name="Теаcher_Delete_Action_Text" xml:space="preserve">
+    <value>Delete teacher</value>
   </data>
 </root>

@@ -1,0 +1,31 @@
+﻿@model CourseManager.UI.Models.TeacherModel
+@{
+  ViewBag.Title = "Details";
+}
+<h2>@CourseManager.UI.Resources.Teacher_Fieldset_Label</h2>
+<div class="display-label">
+  @Html.LabelFor(c => c.FirstName)</div>
+<div class="display-field">@Model.FirstName</div>
+<div class="display-label">
+  @Html.LabelFor(c => c.LastName)</div>
+<div class="display-field">@Model.LastName</div>
+<div class="display-label">
+  @Html.LabelFor(c => c.Email)</div>
+<div class="display-field">@Model.Email</div>
+<div class="display-label">
+  @Html.LabelFor(c => c.RoomNr)</div>
+<div class="display-field">@Model.RoomNr</div>
+<div class="display-label">
+  @Html.LabelFor(c => c.SchoolPhone)</div>
+<div class="display-field">@Model.SchoolPhone</div>
+<div class="display-label">
+  @Html.LabelFor(c => c.Identifier)</div>
+<div class="display-field">@Model.Identifier</div>
+<div class="display-label">
+  @Html.LabelFor(c => c.Department)</div>
+<div class="display-field">@Model.Department</div>
+<p>
+  @Html.ActionLink(CourseManager.UI.Resources.Teacher_Update_Action_Text, "Update", new { id= Model.ID})
+  |
+  @Html.ActionLink(CourseManager.UI.Resources.Global_Back_to_List_Action, "Index")
+</p>

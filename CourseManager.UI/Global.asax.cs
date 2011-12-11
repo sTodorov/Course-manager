@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using CourseManager.Core.DataAccess;
+using System.Data.Entity;
+using CourseManager.UI.Models;
 
 namespace CourseManager.UI
 {
@@ -32,9 +35,10 @@ namespace CourseManager.UI
     protected void Application_Start()
     {
       AreaRegistration.RegisterAllAreas();
-
+      Database.SetInitializer<CourseContext>(new DropCreateDatabaseIfModelChanges<CourseContext>());
       RegisterGlobalFilters(GlobalFilters.Filters);
       RegisterRoutes(RouteTable.Routes);
+      ModelBinders.Binders[typeof(DateTime)] = new DateTimeModelBinder();
     }
   }
 }

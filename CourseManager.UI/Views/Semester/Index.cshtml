@@ -1,0 +1,41 @@
+﻿@model IEnumerable<CourseManager.UI.Models.SemesterModel>
+@{
+  ViewBag.Title = "Index";
+}
+<p>
+  @Html.ActionLink(CourseManager.UI.Resources.Semester_Add_Action_Text, "Create")
+</p>
+<table>
+  <tr>
+    <th>
+    </th>
+    <th>
+      @CourseManager.UI.Resources.Semester_Name_Label
+    </th>
+    <th>
+      @CourseManager.UI.Resources.Semester_StartDate_Label
+    </th>
+    <th>
+      @CourseManager.UI.Resources.Semester_EndDate_Label
+    </th>
+  </tr>
+  @foreach (var item in Model)
+  {
+    <tr>
+      <td>
+        @Html.ActionLink(CourseManager.UI.Resources.Global_Update_Action_text, "Edit", new { id = item.ID })
+        |
+        @Html.ActionLink(CourseManager.UI.Resources.Global_Delete_Action_Text, "Delete", new { id = item.ID })
+      </td>
+      <td>
+        @item.Name
+      </td>
+      <td>
+        @String.Format("{0:g}", item.StartDate)
+      </td>
+      <td>
+        @String.Format("{0:g}", item.EndDate)
+      </td>
+    </tr>
+  }
+</table>

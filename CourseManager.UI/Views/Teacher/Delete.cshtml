@@ -1,0 +1,31 @@
+﻿@model CourseManager.UI.Models.TeacherModel
+@{
+  ViewBag.Title = "Delete";
+}
+
+<h3>@CourseManager.UI.Resources.Globar_Delete_Action_Condition</h3>
+
+  <div class="display-label">
+    @Html.LabelFor(c => c.FirstName)</div>
+  <div class="display-field">@Model.FirstName</div>
+  <div class="display-label">
+    @Html.LabelFor(c => c.LastName)</div>
+  <div class="display-field">@Model.LastName</div>
+  <div class="display-label">
+    @Html.LabelFor(c => c.Email)</div>
+  <div class="display-field">@Model.Email</div>
+  <div class="display-label">
+    @Html.LabelFor(c => c.RoomNr)</div>
+  <div class="display-field">@Model.RoomNr</div>
+  <div class="display-label">
+    @Html.LabelFor(c => c.SchoolPhone)</div>
+  <div class="display-field">@Model.SchoolPhone</div>
+
+@using (Html.BeginForm())
+{
+  <p>
+    <input type="submit" value="@CourseManager.UI.Resources.Теаcher_Delete_Action_Text" />
+    |
+    @Html.ActionLink(CourseManager.UI.Resources.Global_Back_to_List_Action, "Index")
+  </p>
+}

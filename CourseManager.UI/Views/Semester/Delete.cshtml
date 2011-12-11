@@ -1,0 +1,26 @@
+﻿@model CourseManager.UI.Models.SemesterModel
+@{
+  ViewBag.Title = "Delete";
+}
+<h3>
+  @CourseManager.UI.Resources.Globar_Delete_Action_Condition</h3>
+<fieldset>
+  <legend>@CourseManager.UI.Resources.Semester_LinkName</legend>
+  
+  <div class="display-label">@Html.LabelFor(c => c.Name)</div>
+  <div class="display-field">@Model.Name</div>
+  
+  <div class="display-label">@Html.LabelFor(c => c.StartDate)</div>
+  <div class="display-field">@String.Format("{0:g}", Model.StartDate)</div>
+  
+  <div class="display-label">@Html.LabelFor(c => c.EndDate)</div>
+  <div class="display-field">@String.Format("{0:g}", Model.EndDate)</div>
+</fieldset>
+@using (Html.BeginForm())
+{
+  <p>
+    <input type="submit" value="@CourseManager.UI.Resources.Global_Delete_Action_Text" />
+    |
+    @Html.ActionLink(CourseManager.UI.Resources.Global_Back_to_List_Action, "Index")
+  </p>
+}
