@@ -9,10 +9,10 @@ namespace CouresManager.Core
   {
     public int ID { get; set; }
 
-    public int SemesterTypeID { get; set; }
+    public DateTime StartDate { get; set; }
 
-    public virtual SemesterType SemesterType { get; set; }
+    public DateTime EndDate { get; set; }
 
-    public virtual ICollection<SemesterName> SemesterNames { get; set; }
+    public string Name { get; set; }
   }
 }

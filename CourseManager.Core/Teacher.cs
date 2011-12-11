@@ -8,7 +8,7 @@ namespace CouresManager.Core
 {
   public class Teacher
   {
-    
+
     public int ID { get; set; }
 
     public string FirstName { get; set; }
@@ -21,6 +21,8 @@ namespace CouresManager.Core
 
     public string Phone { get; set; }
 
-    public string Email { get; set; } 
+    public string Email { get; set; }
+
+    public string Department { get; set; }
   }
 }

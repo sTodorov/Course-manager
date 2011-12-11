@@ -12,9 +12,5 @@ namespace CouresManager.Core
     public string Name { get; set; }
 
     public string Culture { get; set; }
-
-    public virtual ICollection<SemesterName> SemesterNames { get; set; }
-
-    public virtual ICollection<SemesterTypeName> SemesterTypeNames { get; set; }
   }
 }

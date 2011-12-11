@@ -16,7 +16,6 @@ namespace CourseManager.Core.DataAccess
 
       this.Configuration.LazyLoadingEnabled = true;
       this.Configuration.ValidateOnSaveEnabled = false;
-
     }
 
     protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -24,10 +23,6 @@ namespace CourseManager.Core.DataAccess
       base.OnModelCreating(modelBuilder);
 
       modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-
-      modelBuilder.Entity<SemesterName>().HasKey<int>(c => c.LanguageID).HasKey<int>(c => c.SemesterID);
-      modelBuilder.Entity<SemesterTypeName>().HasKey<int>(c => c.LanguageID).HasKey<int>(c => c.SemesterTypeID);
-
     }
 
     public DbSet<Course> Courses { get; set; }
@@ -35,12 +30,6 @@ namespace CourseManager.Core.DataAccess
     public DbSet<Language> Languages { get; set; }
 
     public DbSet<Semester> Semesters { get; set; }
-
-    public DbSet<SemesterName> SemesterNames { get; set; }
-
-    public DbSet<SemesterType> SemesterTypes { get; set; }
-
-    public DbSet<SemesterTypeName> SemesterTypeNames { get; set; }
 
     public DbSet<Teacher> Teachers { get; set; }
   }
